@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Login_Wireframe
 {
-    public partial class AddItem : Form
+    public partial class ItemBoxUserControl : UserControl
     {
-        public AddItem()
+        public ItemBoxUserControl()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

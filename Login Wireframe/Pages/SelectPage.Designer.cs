@@ -39,7 +39,7 @@ namespace Login_Wireframe
             this.button3 = new System.Windows.Forms.Button();
             this.settingsPictureBox = new System.Windows.Forms.PictureBox();
             this.searchButtonPictureBox = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.searchBarTextBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.settingsPictureBox)).BeginInit();
@@ -118,12 +118,12 @@ namespace Login_Wireframe
             this.searchButtonPictureBox.TabIndex = 11;
             this.searchButtonPictureBox.TabStop = false;
             // 
-            // textBox1
+            // searchBarTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(205, 125);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(359, 23);
-            this.textBox1.TabIndex = 10;
+            this.searchBarTextBox.Location = new System.Drawing.Point(205, 125);
+            this.searchBarTextBox.Name = "searchBarTextBox";
+            this.searchBarTextBox.Size = new System.Drawing.Size(359, 23);
+            this.searchBarTextBox.TabIndex = 10;
             // 
             // SelectPage
             // 
@@ -132,7 +132,7 @@ namespace Login_Wireframe
             this.ClientSize = new System.Drawing.Size(800, 782);
             this.Controls.Add(this.settingsPictureBox);
             this.Controls.Add(this.searchButtonPictureBox);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.searchBarTextBox);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.removeItemButton);
             this.Controls.Add(this.addItemButton);
@@ -159,6 +159,6 @@ namespace Login_Wireframe
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox settingsPictureBox;
         private System.Windows.Forms.PictureBox searchButtonPictureBox;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox searchBarTextBox;
     }
 }
