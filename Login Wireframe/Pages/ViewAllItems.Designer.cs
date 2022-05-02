@@ -76,7 +76,7 @@ namespace Login_Wireframe
             // settingsPictureBox
             // 
             this.settingsPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("settingsPictureBox.Image")));
-            this.settingsPictureBox.Location = new System.Drawing.Point(555, 131);
+            this.settingsPictureBox.Location = new System.Drawing.Point(564, 131);
             this.settingsPictureBox.Name = "settingsPictureBox";
             this.settingsPictureBox.Size = new System.Drawing.Size(25, 23);
             this.settingsPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -86,7 +86,7 @@ namespace Login_Wireframe
             // searchButtonPictureBox
             // 
             this.searchButtonPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("searchButtonPictureBox.Image")));
-            this.searchButtonPictureBox.Location = new System.Drawing.Point(199, 131);
+            this.searchButtonPictureBox.Location = new System.Drawing.Point(168, 131);
             this.searchButtonPictureBox.Name = "searchButtonPictureBox";
             this.searchButtonPictureBox.Size = new System.Drawing.Size(25, 23);
             this.searchButtonPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
