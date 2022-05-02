@@ -168,7 +168,7 @@ namespace Login_Wireframe
             this.Controls.Add(this.addItemButton);
             this.Controls.Add(this.itemEntryPanel);
             this.Name = "AddItem";
-            this.Text = "Form1";
+            this.Text = "S";
             this.Load += new System.EventHandler(this.AddItem_Load);
             this.itemEntryPanel.ResumeLayout(false);
             this.itemEntryPanel.PerformLayout();

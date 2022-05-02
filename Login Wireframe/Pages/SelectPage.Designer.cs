@@ -139,7 +139,7 @@ namespace Login_Wireframe
             this.Controls.Add(this.logoBox);
             this.Controls.Add(this.pictureBox1);
             this.Name = "SelectPage";
-            this.Text = "Form2";
+            this.Text = "SS";
             ((System.ComponentModel.ISupportInitialize)(this.logoBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.settingsPictureBox)).EndInit();

@@ -88,6 +88,7 @@ namespace Login_Wireframe
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(373, 23);
             this.textBox1.TabIndex = 3;
+            this.textBox1.UseSystemPasswordChar = true;
             // 
             // userNameTextBox
             // 
