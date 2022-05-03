@@ -40,6 +40,7 @@ namespace Login_Wireframe
             this.userControl11 = new Login_Wireframe.UserControls.UserControl1();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.showLoginInfoButton = new System.Windows.Forms.Button();
+            this.itemBoxUserControl1 = new Login_Wireframe.ItemBoxUserControl();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox)).BeginInit();
             this.SuspendLayout();
@@ -119,9 +120,9 @@ namespace Login_Wireframe
             this.listBox1.Items.AddRange(new object[] {
             "UserName:",
             "Password: "});
-            this.listBox1.Location = new System.Drawing.Point(766, 280);
+            this.listBox1.Location = new System.Drawing.Point(735, 280);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 94);
+            this.listBox1.Size = new System.Drawing.Size(235, 94);
             this.listBox1.TabIndex = 18;
             // 
             // showLoginInfoButton
@@ -134,12 +135,20 @@ namespace Login_Wireframe
             this.showLoginInfoButton.UseVisualStyleBackColor = true;
             this.showLoginInfoButton.Click += new System.EventHandler(this.button2_Click);
             // 
+            // itemBoxUserControl1
+            // 
+            this.itemBoxUserControl1.Location = new System.Drawing.Point(866, 495);
+            this.itemBoxUserControl1.Name = "itemBoxUserControl1";
+            this.itemBoxUserControl1.Size = new System.Drawing.Size(8, 8);
+            this.itemBoxUserControl1.TabIndex = 22;
+            // 
             // loginPageForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1093, 782);
+            this.Controls.Add(this.itemBoxUserControl1);
             this.Controls.Add(this.showLoginInfoButton);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button1);
@@ -170,6 +179,7 @@ namespace Login_Wireframe
         private UserControls.UserControl1 userControl11;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button showLoginInfoButton;
+        private ItemBoxUserControl itemBoxUserControl1;
     }
 }
 

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Login_Wireframe.UserControls
@@ -42,7 +35,7 @@ namespace Login_Wireframe.UserControls
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            
+
             if (userNameTextBox.TextLength == 0 || passwordTextbox.TextLength == 0)
             {
                 MessageBox.Show("UserName and Password not entered!", "Login info required.", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -65,8 +58,10 @@ namespace Login_Wireframe.UserControls
             return userPassword;
         }
 
-            
-     }
-}       
 
-    
+    }
+
+}
+
+
+
