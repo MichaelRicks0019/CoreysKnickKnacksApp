@@ -39,6 +39,7 @@ namespace Login_Wireframe
             this.button1 = new System.Windows.Forms.Button();
             this.userControl11 = new Login_Wireframe.UserControls.UserControl1();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.showLoginInfoButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox)).BeginInit();
             this.SuspendLayout();
@@ -123,12 +124,23 @@ namespace Login_Wireframe
             this.listBox1.Size = new System.Drawing.Size(120, 94);
             this.listBox1.TabIndex = 18;
             // 
+            // showLoginInfoButton
+            // 
+            this.showLoginInfoButton.Location = new System.Drawing.Point(735, 380);
+            this.showLoginInfoButton.Name = "showLoginInfoButton";
+            this.showLoginInfoButton.Size = new System.Drawing.Size(182, 28);
+            this.showLoginInfoButton.TabIndex = 20;
+            this.showLoginInfoButton.Text = "Show UserName and Password";
+            this.showLoginInfoButton.UseVisualStyleBackColor = true;
+            this.showLoginInfoButton.Click += new System.EventHandler(this.button2_Click);
+            // 
             // loginPageForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1093, 782);
+            this.Controls.Add(this.showLoginInfoButton);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
@@ -157,6 +169,7 @@ namespace Login_Wireframe
         private System.Windows.Forms.Button button1;
         private UserControls.UserControl1 userControl11;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button showLoginInfoButton;
     }
 }
 

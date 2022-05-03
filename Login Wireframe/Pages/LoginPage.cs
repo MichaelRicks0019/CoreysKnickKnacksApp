@@ -17,13 +17,6 @@ namespace Login_Wireframe
             InitializeComponent();
         }
 
-        listB
-
-        private void loginButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             SelectPage selectPage = new SelectPage();
@@ -34,6 +27,15 @@ namespace Login_Wireframe
         private void userControl11_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            string item = "UserName:" + userControl11.GetUserName();
+            listBox1.Items.Add(item);
+            item = "Password:" + userControl11.GetPassWord();
+            listBox1.Items.Add(item);
         }
     }
 }

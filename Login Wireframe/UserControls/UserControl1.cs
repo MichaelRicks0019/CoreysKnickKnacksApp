@@ -17,8 +17,8 @@ namespace Login_Wireframe.UserControls
             InitializeComponent();
         }
 
-        string userName;
-        string userPassword;
+        private string userName { get; set; }
+        private string userPassword { get; set; }
 
         private void ViewPassowordPictureBox_Click(object sender, EventArgs e)
         {
@@ -52,6 +52,17 @@ namespace Login_Wireframe.UserControls
                 userName = userNameTextBox.Text;
                 userPassword = passwordTextbox.Text;
             }
+
+        }
+
+        public string GetUserName()
+        {
+            return userName;
+        }
+
+        public string GetPassWord()
+        {
+            return userPassword;
         }
 
             
